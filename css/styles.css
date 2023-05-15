@@ -53,3 +53,33 @@
     scale: 1;
     transform-origin: left;
 }
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+
+}
+.card{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.card h2{
+    color: #0e2febd0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.card h3{
+    color: #0e2feb5e;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card p {
+    color: #020724a6;
+    font-size:25px;
+    font-weight: 500;
+}
